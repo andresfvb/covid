@@ -21,3 +21,25 @@ num_pais = len(data)
 print("P")
 print(num_pais)
 print()
+
+
+#////////////////////////////////
+
+# Punto 2
+
+num_muni = len(data.groupby('Nombre municipio').size())
+print("P")
+print(num_muni)
+print() 
+
+num_muni = len(data.groupby('Nombre municipio').size())
+print("P")
+print(num_muni)
+print()
+
+num_muni = len(data.groupby('Nombre municipio').size())
+print("P")
+print(num_muni)
+print()
+
+#////////////////////////////////
