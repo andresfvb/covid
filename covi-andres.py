@@ -60,3 +60,17 @@ print()
 
 
 #////////////////////////////////
+#punto 5
+data['Recuperado'].replace('fallecido','Fallecido',inplace=True)
+num_recu = len(data[data['Recuperado'] == 'Recuperado'])
+print("Punto 5")
+print(num_recu)
+print()
+
+num_recu = len(data[data['Recuperado'] == 'Recuperado'])
+print("Punto 5")
+print(num_recu)
+print() 
+print()
+
+#////////////////////////////////
