@@ -43,3 +43,20 @@ print(num_muni)
 print()
 
 #////////////////////////////////
+
+# Punto 3
+
+data['Ubicación del caso'].replace('casa','Casa',inplace=True)
+data['Ubicación del caso'].replace('CASA','Casa',inplace=True)
+num_encasa = len(data[data['Ubicación del caso'] == 'Casa'])
+print("Punto 4")
+print(num_encasa)
+print() 
+
+num_encasa = len(data[data['Ubicación del caso'] == 'Casa'])
+print("Punto 4")
+print(num_encasa)
+print()
+
+
+#////////////////////////////////
